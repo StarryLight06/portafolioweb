@@ -32,6 +32,9 @@ body
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
 }
 
 .navbar a
@@ -47,5 +50,108 @@ body
 
 .navbar a:hover
 {
-    color:#0ef;
+    color: #8464cf;
 }
+
+.home
+{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(imagenes/humo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-content
+{
+    max-width: 600px;
+}
+.home-content h3
+{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h3:nth-of-type(2)
+{
+    margin-bottom: 30px;
+}
+
+.home-content h3 span
+{
+    color: #8464cf;
+}
+
+.home-content h1
+{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-content p
+{
+    font-size: 20px;
+}
+
+.home-sci a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #8464cf;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #8464cf;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.home-sci a:hover
+{
+    background: #8464cf;
+    color: #081b29;
+    box-shadow: 0 0 20px #8464cf;
+}
+
+.btn-box
+{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #8464cf;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-box:hover
+{
+    box-shadow: 0 0 5px #8464cf,
+    0 0 25px #8464cf,
+    0 0 50px #8464cf,
+    0 0 100px #8464cf,
+    0 0 200px #8464cf;
+}
+
+@keyframes slideRight
+{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
