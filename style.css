@@ -173,12 +173,11 @@ body
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .about-img img
 {
-    padding-bottom: 20%;
     max-width: 630px;
     height: auto;
     width: 100%;
@@ -209,7 +208,7 @@ body
     color: lavender;
     font-size: 20px;
     line-height: 1.4;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 #services
@@ -217,14 +216,15 @@ body
     color: lavender;
     font-size: 20px;
     line-height: 1.4;
-    margin-bottom: 4rem;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .sub-title
 {
     text-align: center;
     font-size: 60px;
-    padding-bottom: 70px;
+    padding-top: 30px;
 }
 
 .sub-title span
@@ -314,14 +314,15 @@ section
 {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 20px;
 }
 
 .container1
 {
-    width: 500px;
-    height: 500px;
-    padding: 65px 80px;
-    margin-left: 90px;
+    width: 40%;
+    height: auto;
+    padding: 55px 70px;
+    margin-left: 70px;
 }
 
 .heading1
@@ -582,7 +583,7 @@ section
 {
     display: grid;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 40px;
     padding-top: 50px;
     row-gap: 10%;
     grid-template-columns: repeat(auto-fit, minmax(250px, 27%));
@@ -591,8 +592,7 @@ section
 
 .main-text
 {
-    padding-top: 130px;
-    margin-top: 200px;
+    margin-top: 90px;
 }
 
 .main-text h2
@@ -687,6 +687,7 @@ section
     align-items: center;
     gap: 3rem;
     padding-left: 30px;
+    padding-top: 90px;
     margin-top: 130px;   
 }
 
