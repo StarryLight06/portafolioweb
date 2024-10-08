@@ -581,8 +581,10 @@ section
 .portfolio-content
 {
     display: grid;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 50px;
+    padding-top: 50px;
+    row-gap: 10%;
     grid-template-columns: repeat(auto-fit, minmax(250px, 27%));
     
 }
