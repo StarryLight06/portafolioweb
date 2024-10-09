@@ -64,7 +64,8 @@ body
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(imagenes/humo.jpg) no-repeat;
+    /*background: url(imagenes/humo.jpg) no-repeat;*/
+    background: #050102;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -317,6 +318,17 @@ section
     padding-top: 20px;
 }
 
+/**.container1
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 45%;
+    height: auto;
+    padding: 55px 70px;
+}**/
+
 .container1
 {
     width: 40%;
@@ -327,12 +339,25 @@ section
 
 .heading1
 {
+    
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
     margin-bottom: 50px;
 }
+
+/*.heading2
+{
+    
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 250px;
+}*/
 
 .bar
 {
