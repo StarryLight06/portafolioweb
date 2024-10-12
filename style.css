@@ -691,14 +691,16 @@ section
 {
     color: #000000;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 800;
     margin-bottom: 15px;
 }
 
 .layer p
 {
-    color: #000000;
-    font-size: 20px;
+    color: #cecbd4;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: oblique;
     line-height: 1.8;
 }
 
@@ -719,6 +721,7 @@ section
 .row:hover img
 {
     transform: scale(1.1);
+    opacity: 85%;
 }
 
 .row:hover .layer
